@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AAPH General System,',
+  title: 'Proman Documentation,',
   tagline: 'Documentation',
   favicon: 'img/favicon.ico',
 
@@ -14,12 +14,12 @@ const config = {
   url: 'http://192.168.122.191',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'aaph-tanzania', // Usually your GitHub org/user name.
-  projectName: 'aaph-reminder-ui', // Usually your repo name.
+  organizationName: 'Tech-Na-Sisi-Foundation', // Usually your GitHub org/user name.
+  projectName: 'proman-documentation', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -59,7 +59,7 @@ const config = {
       // Replace with your project's social card
       // image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'AAPH GS',
+        title: 'Proman',
         logo: {
           alt: 'AAPH Logo',
           src: 'img/AAPHlogo.png',
@@ -72,7 +72,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://github.com/aaph-tanzania',
+            href: 'https://github.com/Tech-Na-Sisi-Foundation',
             label: 'GitHub',
             position: 'right',
           },
@@ -98,24 +98,20 @@ const config = {
             title: 'Media Links',
             items: [
               {
-                label: 'AAPH Website',
-                href: 'https://aaph.or.tz/',
+                label: 'Tech Na Sisi Website',
+                href: 'https://technasisi.or.tz/',
               },
               {
                 label: 'Instagram',
-                href: 'https://www.instagram.com/aaph_africa/',
+                href: 'https://www.instagram.com/technasisi/',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/AAPH_Africa',
+                href: 'https://twitter.com/technasisi',
               },
               {
                 label: 'Facebook',
-                href: 'https://www.facebook.com/profile.php?id=100079379110623',
-              },
-              {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/company/africa-academy-for-public-health-aaph/mycompany/',
+                href: 'https://www.facebook.com/technasisi/',
               },
             ],
           },
@@ -124,12 +120,12 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/aaph-tanzania',
+                href: 'https://github.com/Tech-Na-Sisi-Foundation',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} AAPH GS. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Tech na Sisi Foundation. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
