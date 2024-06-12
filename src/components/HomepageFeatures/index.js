@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/documentation.svg').default,
     description: (
       <>
-        Get an understanding  on how AAPH GS works. With system rich in features, checkout to see all of what you can do inside the AAPH GS  by opening <a href="/docs/user/user-manual-introduction"> User Manual </a>.
+        Get an understanding  on how AAPH GS works. With system rich in features, checkout to see all of what you can do inside the PROMAN  by opening <a href="/docs/user/user-manual-introduction"> User Manual </a>.
       </>
     ),
   },
@@ -18,7 +18,7 @@ const FeatureList = [
     description: (
       <>
         If you are a developer. You might want to interract with this system. We welcome you with open arms. Have a look and start interracting with 
-        <a href='/docs/category/developer-manual'> AAPH GS API</a>
+        <a href='/docs/category/developer-manual'> PROMAN API</a>
       </>
     ),
   }

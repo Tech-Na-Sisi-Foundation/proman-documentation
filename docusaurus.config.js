@@ -59,10 +59,10 @@ const config = {
       // Replace with your project's social card
       // image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Proman',
+        title: 'PROMAN',
         logo: {
-          alt: 'AAPH Logo',
-          src: 'img/AAPHlogo.png',
+          alt: 'Tech Na Sisi Logo',
+          src: 'img/TechNaSisi-Logo-Full.png',
         },
         items: [
           {
